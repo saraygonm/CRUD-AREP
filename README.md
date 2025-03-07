@@ -141,6 +141,30 @@ El sistema cuenta con una interfaz web desarrollada en **HTML, CSS y JavaScript*
 
 ---
 
+## 🌐 Funcionalidad
+
+### Agregar
+<!-- Creación de tabla para alinear las imágenes lado a lado.-->
+| <img src="./src/main/resources/static/images/agregar.png"  width="500px"> | <img src="./src/main/resources/static/images/agregada.png" width="500px"> |
+|---------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| **LLenamos los datos**                                                    | **Se agrega**                                                            |
+
+
+### Actualizar 
+<!-- Creación de tabla para alinear las imágenes lado a lado.-->
+| <img src="./src/main/resources/static/images/actualizar.png"  width="500px"> | <img src="./src/main/resources/static/images/actualizada.png" width="500px"> | <img src="./src/main/resources/static/images/db1.png" width="500px"> |
+|------------------------------------------------------------------------------|------------------------------------------------------------------------------|----------------------------------------------------------------------|
+| **Actualizar agregando el # y 79m2**                                         | **Actualizada**                                                              | **Base de datos**                                                    |
+
+### Borrar
+<!-- Creación de tabla para alinear las imágenes lado a lado.-->
+<!-- Creación de tabla para alinear las imágenes lado a lado.-->
+| <img src="./src/main/resources/static/images/eliminar.png"  width="500px"> | <img src="./src/main/resources/static/images/eliminada.png" width="500px"> | <img src="./src/main/resources/static/images/db2.png" width="500px"> |
+|----------------------------------------------------------------------------|----------------------------------------------------------------------------|----------------------------------------------------------------------|
+| **Eliminamos la propiedad apartamento**                                    | **Eliminada**                                                              | **Base de datos**                                                    |
+
+
+
 ## 🚀 Despliegue en AWS
 
 Para el despliegue en AWS, se siguen los siguientes pasos:
