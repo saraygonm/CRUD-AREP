@@ -1,0 +1,145 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #3a7d44, #2d6a4f);
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #fff;
+    color: #1b4332;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Redondear esquinas */
+    max-width: 80%;
+    margin: 20px auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 90%;
+    margin: 30px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-container, .list-container {
+    width: 48%;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1b4332;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+textarea {
+    height: 80px;
+}
+
+.btn-add {
+    background: #1b4332;
+    color: white;
+    font-size: 18px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.btn-add:hover {
+    background: #145c32;
+}
+
+/* Estilos para la lista de propiedades */
+#propertyList {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.property-item {
+    background: #eef9f3;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;  /* ✅ Texto negro */
+}
+
+/* Alineación de botones */
+.property-item div {
+    display: flex;
+    gap: 10px;
+}
+
+/* Estilo para los botones */
+.btn-update, .btn-delete {
+    padding: 10px 20px; /* Hacer los botones más grandes */
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.btn-update {
+    background: #ffc107;
+    color: #333;
+    margin-right: 8px;
+}
+
+.btn-update:hover {
+    background: #e0a800;
+}
+
+.btn-delete {
+    background: #dc3545;
+    color: white;
+}
+
+.btn-delete:hover {
+    background: #c82333;
+}
+
+/* Footer */
+footer {
+    background: #1b4332;
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 30px;
+}
