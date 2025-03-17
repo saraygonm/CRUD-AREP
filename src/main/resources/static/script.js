@@ -1,7 +1,9 @@
+const apiUrl = "http://18.212.192.123:8080/properties";
+
 const propertyList = document.getElementById('propertyList');
 const propertyForm = document.getElementById('propertyForm');
 
-const apiUrl = '/properties';
+//const apiUrl = '/properties';
 
 async function fetchProperties() {
     const response = await fetch(apiUrl);
